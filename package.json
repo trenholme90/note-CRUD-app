@@ -1,0 +1,30 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/vision": "^6.0.0",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "hapi": "^18.1.0",
+    "hapi-bodyparser": "^2.1.2",
+    "hapi-mongodb": "^9.0.0",
+    "mongoose": "^5.9.15",
+    "path": "^0.12.7",
+    "pug": "^2.0.4",
+    "slug": "^3.0.1"
+  },
+  "devDependencies": {
+    "git": "^0.1.5",
+    "jest": "^26.0.1"
+  }
+}
